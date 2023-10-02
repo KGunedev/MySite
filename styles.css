@@ -1,0 +1,261 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+p{
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 60px;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 350px;
+    top: 100px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+}
+
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.scroll{
+    position: absolute;
+    right: 280px;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: #66BFBF;
+}
+
+.arrow-down{
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    transform: rotate(45deg);
+
+}
+
+.second-container{
+    background-image: url("https://media1.giphy.com/media/eCJYMIVY3w9AQ/giphy.gif?cid=ecf05e47g84o6e6e2mdtcmb3gfqim5uu51re9hu6u8unxt9m&ep=v1_gifs_related&rid=giphy.gif&ct=s");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center;
+  background-size: 90%;
+}
+
+.profile{
+    margin: 100px auto;
+    width: 25%;
+   
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+}
+
+hr{
+    color: #EAF6F6;
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 10px;
+    width: 6%;
+}
+
+.profile{
+    background-color: aliceblue;
+    border-radius: 10%;
+    width: 25%;
+    margin: 100px auto;
+    padding: 3%;
+}
+
+.what-i-do{
+    background-color: aliceblue;
+    border-radius: 10%;
+    width: 50%;
+    margin: 100px auto;
+    padding: 3% 0;
+}
+
+.game-developing-skill{
+    text-align: left;
+    margin: 100px;
+}
+
+.kirby-gif{
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.web-developing-skill{
+    text-align: left;
+    margin: 100px;
+}
+
+.web-dev-gif{
+    width: 220px;
+    float: right;
+    margin-left: 30px;
+}
+
+.pixel-art-skill{
+    text-align: left;
+    margin: 100px;
+}
+
+.cat-gif{
+    width: 200px;
+    float: left;
+    margin-right: 60px;
+}
+
+.third-container{
+    background-color: #E4F9F5;
+}
+
+.skills{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.skills-container{
+    margin: 100px;
+    background-color: aliceblue;
+    border-radius: 10%;
+    box-shadow: 10px 10px lightblue;
+}
+
+.skill-icon{
+    margin: 20px;
+    width: 100px;
+}
+
+.contact-para{
+    font-weight: 200;
+    margin: 0;
+}
+
+.btn {
+    
+    top: 20px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #66BFBF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 30px;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+.bottom-container {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer-link{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.copy-right {
+    color: grey;
+    font-size: 0.75rem;
+    padding: 20px 20px;
+}
+
